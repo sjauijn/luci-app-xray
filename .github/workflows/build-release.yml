@@ -4,7 +4,6 @@ on:
   push:
     tags:
       - "*"
-  workflow_dispatch:
 
 env:
   PACKAGE_NAME: luci-app-xray
